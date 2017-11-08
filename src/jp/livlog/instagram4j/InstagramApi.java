@@ -204,7 +204,7 @@ public class InstagramApi {
         }
 
         final StringBuffer sb = new StringBuffer(API_URL);
-        sb.append("/media/search");
+        sb.append("media/search");
 
         Map map = null;
 
@@ -261,7 +261,7 @@ public class InstagramApi {
         }
 
         final StringBuffer sb = new StringBuffer(API_URL);
-        sb.append("/media/popular");
+        sb.append("media/popular");
 
         Map map = null;
 
